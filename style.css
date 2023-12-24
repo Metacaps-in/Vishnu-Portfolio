@@ -142,35 +142,32 @@ p {
     top: 160px;
     height: 735px;
 }
+.skill h1 {
+color: blue;
+}
 
 .progress {
     color: rgb(237, 67, 11);
-    /* position: fixed; */
-    top: 291px;
-    width: 34%;
-    height: 21px;
-    text-align: center;
-    left: 272px;
-}
-
-progress {
-    /* position: fixed; */
-    top: 291px;
-    width: 34%;
-    height: 21px;
-    text-align: center;
-    left: 272px;
-}
-
-label {
-    /* position: fixed; */
-    top: 275px;
-    width: 11%;
-    height: 21px;
-    text-align: center;
-    left: 81px;
+    position: relative;
+    top: -450px;
+    width: 13%;
+    height: 28px;
     font-size: xx-large;
+    text-align: center;
+    left: 338px;
 }
+
+ progress {
+    position: relative;
+    top: -34px;
+    width: 309%;
+    height: 37px;
+    text-align: center;
+    left: 193px; 
+ }
+
+
+
 
 .contact-section {
     margin-top: 0px;
