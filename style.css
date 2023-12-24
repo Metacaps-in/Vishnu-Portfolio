@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 160px;
+    z-index: 1;
+}
+
+
+/* background-size: cover; */
+/* background-attachment: fixed; */
+
+.logo {
+    display: inline-block;
+    width: 20%;
+}
+
+.nav {
+    position: relative;
+    top: -100px;
+    left: 27%;
+    width: 540px;
+    height: 40px;
+
+
+}
+
+.navbar {
+
+    display: block;
+    text-align: center;
+    float: left;
+    font-size: 23px;
+    font-weight: bold;
+    width: 540px;
+    /* color: white; */
+    text-decoration: none;
+    height: 40px;
+
+}
+
+ul {
+    list-style: none;
+    width: 540px;
+    height: 40px;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    padding: 15px;
+
+}
+
+li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+
+}
+
+li a:hover {
+    background-color: rgb(237, 4, 182);
+    border-radius: 15px;
+    /* border: 1px solid  wheat; */
+
+}
+
+
+/* .section-home{
+    background-image: url("assets/img/bg.png" height: 100%);
+    background-repeat: no-repeat;
+} */
+
+
+.heading {
+
+    color: aqua;
+    margin-left: 31%;
+    font-size: 200%;
+    width: 30%;
+    margin-top: -488px;
+}
+
+h1 {
+    font-size: 29px;
+}
+
+p {
+    position: relative;
+    left: 80px;
+}
+
+.highlight-text {
+    color: rgb(224, 8, 239);
+}
+
+.mark {
+    color: rgba(223, 226, 20, 0.51);
+}
+
+.section-home {
+    margin-top: 0px;
+    position: relative;
+    top: 160px;
+    height: 577px;
+}
+
+.about-section {
+    margin-top: 0px;
+    position: relative;
+    top: 160px;
+    height: 735px;
+}
+
+.intro {
+    color: blueviolet;
+    margin-top: -412px;
+    margin-left: 400px;
+}
+
+.intro h1 {
+    font-size: 50px;
+    margin-left: 280px;
+}
+
+.intro pre {
+    margin-left: 110px;
+    font-size: xx-large;
+    color: aqua;
+}
+
+.skill-section {
+    margin-top: 0px;
+    position: relative;
+    top: 160px;
+    height: 735px;
+}
+
+.progress {
+    color: rgb(237, 67, 11);
+    /* position: fixed; */
+    top: 291px;
+    width: 34%;
+    height: 21px;
+    text-align: center;
+    left: 272px;
+}
+
+progress {
+    /* position: fixed; */
+    top: 291px;
+    width: 34%;
+    height: 21px;
+    text-align: center;
+    left: 272px;
+}
+
+label {
+    /* position: fixed; */
+    top: 275px;
+    width: 11%;
+    height: 21px;
+    text-align: center;
+    left: 81px;
+    font-size: xx-large;
+}
+
+.contact-section {
+    margin-top: 0px;
+    position: relative;
+    top: 160px;
+    height: 735px;
+}
